@@ -83,7 +83,7 @@ export const brand = {
     postalCode: "75219",
     country: "US",
   },
-  url: "https://sabrinaroofing.com",
+  url: "https://sabrina-roofing.vercel.app",
   foundingYear: 2014,
 };
 

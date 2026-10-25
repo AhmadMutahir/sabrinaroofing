@@ -1,0 +1,33 @@
+{
+  "name": "sabrina-roofing",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000 -H 0.0.0.0",
+    "build": "node scripts/fetch-fonts.mjs && next build",
+    "start": "next start -p 3000 -H 0.0.0.0",
+    "lint": "next lint",
+    "audit:a11y": "node scripts/audit-a11y.mjs",
+    "screenshots": "node scripts/screenshots.mjs",
+    "test:interactions": "node scripts/interaction-tests.mjs",
+    "postinstall": "node scripts/fetch-fonts.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "0.544.0",
+    "next": "15.5.4",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "@tailwindcss/postcss": "4.1.13",
+    "@types/node": "24.5.2",
+    "@types/react": "19.1.13",
+    "@types/react-dom": "19.1.9",
+    "axe-core": "^4.10.2",
+    "playwright": "^1.55.0",
+    "postcss": "8.5.6",
+    "tailwindcss": "4.1.13",
+    "typescript": "5.9.2"
+  }
+}

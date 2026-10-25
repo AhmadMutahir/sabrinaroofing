@@ -6,6 +6,16 @@ A responsive, motion-led landing page for a Dallas roofing contractor, built wit
 
 ---
 
+
+> **Live:** [sabrina-roofing.vercel.app](https://sabrina-roofing.vercel.app) ·
+> Repo: [github.com/AhmadMutahir/sabrinaroofing](https://github.com/AhmadMutahir/sabrinaroofing)
+>
+> If the Vercel URL shows a login screen, turn off **Settings → Deployment Protection →
+> Vercel Authentication** (set it to *Only Preview Deployments* or *Disabled*) so the
+> production URL is public.
+
+---
+
 ## Preview
 
 | Desktop | Tablet | Mobile |

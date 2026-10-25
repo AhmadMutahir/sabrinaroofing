@@ -29,3 +29,6 @@ Thumbs.db
 .npm
 .pki
 .sudo_as_admin_successful
+
+# local only - delete after the GitHub push
+.gh-token.local

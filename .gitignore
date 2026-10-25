@@ -32,3 +32,6 @@ Thumbs.db
 
 # local only - delete after the GitHub push
 .gh-token.local
+
+# deploy bundle (not part of the source tree)
+*.zip
